@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: PwrDrvr.PwrGit
+PackageVersion: 0.27.0
+InstallerType: nullsoft
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Custom: /currentuser
+UpgradeBehavior: install
+AppsAndFeaturesEntries:
+- DisplayName: PwrGit
+  Publisher: PwrDrvr LLC
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/pwrdrvr/PwrGit/releases/download/v0.27.0/PwrGit-0.27.0-windows-x64-setup.exe
+  InstallerSha256: F3A47001A1F79D9E670F283DB8D04DB4952E6ACC312C96D0DF7D409F9E71CC72
+ManifestType: installer
+ManifestVersion: 1.12.0

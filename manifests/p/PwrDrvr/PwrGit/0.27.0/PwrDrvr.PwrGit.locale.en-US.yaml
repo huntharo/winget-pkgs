@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+PackageIdentifier: PwrDrvr.PwrGit
+PackageVersion: 0.27.0
+PackageLocale: en-US
+Publisher: PwrDrvr LLC
+PublisherUrl: https://pwrdrvr.com/
+PublisherSupportUrl: https://github.com/pwrdrvr/PwrGit/issues
+PackageName: PwrGit
+PackageUrl: https://pwrgit.com/
+License: MIT
+LicenseUrl: https://github.com/pwrdrvr/PwrGit/blob/v0.27.0/LICENSE
+ShortDescription: Desktop Git client for managing repositories and worktrees
+ReleaseNotesUrl: https://github.com/pwrdrvr/PwrGit/releases/tag/v0.27.0
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0
